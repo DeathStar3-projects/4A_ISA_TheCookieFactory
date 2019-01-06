@@ -1,9 +1,10 @@
 # The Cookie Factory (ISA Case study)
 
-  * Author: Sébastien Mosser [mosser@i3s.unice.fr](mosser@i3s.unice.fr)
+  * Main Author: Sébastien Mosser [mosser@i3s.unice.fr](mosser@i3s.unice.fr)
+  * Maintainer : Philippe Collet [collet@i3s.unice.fr](collet@i3s.unice.fr)
   * Reviewer: Anne-Marie Déry [pinna@polytech.unice.fr](pinna@polytech.unice.fr)
-  * Version: 02.2016
-  * Continuous integration status: [![Build Status](https://travis-ci.org/polytechnice-si/4A_ISA_TheCookieFactory.svg?branch=develop)](https://travis-ci.org/polytechnice-si/4A_ISA_TheCookieFactory)
+  * Version: under development
+  * Continuous integration status: [![Build Status](https://travis-ci.org/collet/4A_ISA_TheCookieFactory.svg?branch=develop)](https://travis-ci.org/collet/4A_ISA_TheCookieFactory)
 
 
 This case study is used to illustrate the different technologies involved in the _Introduction to Software Architecture_  course given at Polytech Nice - Sophia Antipolis at the graduate level. This demonstration code requires the following software to run properly:
