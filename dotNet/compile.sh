@@ -3,10 +3,10 @@
 case "$(uname -s)" in
 
    CYGWIN*|MINGW*|MSYS*)
-     csc src/*.cs -out:server.exe;;
-     
+     csc -out:server.exe -recurse:*.cs;;
+
 
    *)
      mcs src/*.cs -pkg:wcf -out:server.exe;;
-     
+
 esac
