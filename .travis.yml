@@ -7,6 +7,8 @@ language: java  # Java is the main language for this project
 jdk:            # Running using Oracle JDK 8
   - oraclejdk8
 
+dist: trusty    # fix issues on updated default Ubuntu distro used by Travis
+
 sudo: required  # Mandatory to run docker
 
 services:       # Activating Docker support for this build
