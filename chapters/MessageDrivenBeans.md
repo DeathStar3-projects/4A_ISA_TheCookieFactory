@@ -3,9 +3,9 @@
   * Author: Sébastien Mosser [mosser@i3s.unice.fr](mosser@i3s.unice.fr)
   * Reviewer: Anne-Marie Déry [pinna@polytech.unice.fr](pinna@polytech.unice.fr)
   * Version: 02.2016
-  * [Back to The Cookie Factory Home Page](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/Readme.md)
+  * [Back to The Cookie Factory Home Page](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/Readme.md)
 
-  * Prev.: [Component-based Web UI](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/chapters/UI_JSF.md)
+  * Prev.: [Component-based Web UI](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/UI_JSF.md)
 
 
 ## Synchronous versus Asynchronous communication
@@ -15,7 +15,7 @@ Until now, we defined a _synchronous_ system. Each time a _caller_ calls a _call
 For example, let's consider the processing of a given order by the kitchen. The TCF bakeries are equipped with physical printer that print orders received from the cashier (or by Cookie on Demand). This process is slow with respect to the others operations involved in cookies ordering. And concretely, the order is already payed, so a customer should not wait for the ticket to be printed ...
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/polytechnice-si/4A_ISA_TheCookieFactory/develop/docs/asynch.png"/>
+	<img src="https://raw.githubusercontent.com/collet/4A_ISA_TheCookieFactory/develop/docs/asynch.png"/>
 </p>
 
 In the J2E ecosystem, calling beans in an asynchronous way is implemented on top of the _Java Message Service_ (JMS), through _Message-driven Beans_ (MDB). These beans will be started by the container, and react to the reception of messages on dedicated _message queues_.
@@ -113,4 +113,5 @@ public class KitchenPrinter implements MessageListener {
 }
 ```
 
-  * Next: [Conclusions](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/chapters/Conclusions.md)
+  * Next: [Conclusions](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/Conclusions.md)
+colletcollet

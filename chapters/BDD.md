@@ -3,9 +3,9 @@
   * Author: Sébastien Mosser [mosser@i3s.unice.fr](mosser@i3s.unice.fr)
   * Reviewer: Anne-Marie Déry [pinna@polytech.unice.fr](pinna@polytech.unice.fr) - _PENDING_
   * Version: 03.2017
-  * [Back to The Cookie Factory Home Page](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/Readme.md)
+  * [Back to The Cookie Factory Home Page](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/Readme.md)
 
-  * Prev.: [Conclusions](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/chapters/Conclusions.md) 
+  * Prev.: [Conclusions](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/Conclusions.md) 
 
 ## Bridging the gap between scenarios and tests
 
@@ -187,12 +187,12 @@ azrael:j2e mosser$
 A report is generated in the `/target/cucumber-report/feature-overview.html` file.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/polytechnice-si/4A_ISA_TheCookieFactory/develop/docs/bdd_overview.png"/>
+  <img src="https://raw.githubusercontent.com/collet/4A_ISA_TheCookieFactory/develop/docs/bdd_overview.png"/>
 </p>
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/polytechnice-si/4A_ISA_TheCookieFactory/develop/docs/bdd_feature.png"/>
+  <img src="https://raw.githubusercontent.com/collet/4A_ISA_TheCookieFactory/develop/docs/bdd_feature.png"/>
 </p>
 
 
@@ -201,7 +201,8 @@ A report is generated in the `/target/cucumber-report/feature-overview.html` fil
 IntelliJ supports Cucumber thanks to the eponymous plugin. It will provide automated completion of steps based on the defined regular expressions, syntax colouring, and folding / unfolding mechanisms.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/polytechnice-si/4A_ISA_TheCookieFactory/develop/docs/bdd_intellij.png"/>
+  <img src="https://raw.githubusercontent.com/collet/4A_ISA_TheCookieFactory/develop/docs/bdd_intellij.png"/>
 </p> 
 
 __Remark__: Unfortunately, the execution plugin associated to Cucumber is not compatible with Cukespace, so one cannot trigger the tests directly from the IDE.
+collet

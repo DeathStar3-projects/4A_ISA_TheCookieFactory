@@ -3,14 +3,14 @@
   * Author: Sébastien Mosser [mosser@i3s.unice.fr](mosser@i3s.unice.fr)
   * Reviewer: Anne-Marie Déry [pinna@polytech.unice.fr](pinna@polytech.unice.fr)
   * Version: 02.2016
-  * [Back to The Cookie Factory Home Page](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/Readme.md)
+  * [Back to The Cookie Factory Home Page](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/Readme.md)
 
-  * Prev.: [Asynchronous Communication using Messages](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/chapters/MessageDrivenBeans.md) 
+  * Prev.: [Asynchronous Communication using Messages](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/MessageDrivenBeans.md) 
 
 ## Summary
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/polytechnice-si/4A_ISA_TheCookieFactory/develop/docs/big_pict.png"/>
+  <img src="https://raw.githubusercontent.com/collet/4A_ISA_TheCookieFactory/develop/docs/big_pict.png"/>
 </p>
 
 This reference implementation demonstrates the following points with respect to the Introduction to Software Architecture course objectives:
@@ -50,4 +50,5 @@ This reference implementation demonstrates the following points with respect to 
     - [ ]  Consider to attend the _Business Process Modelling_ course next year (id: SOA-1). 
 
     
-  * Bonus: [Using behavioural-driven development to model test scenarios](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/chapters/BDD.md)  
+  * Bonus: [Using behavioural-driven development to model test scenarios](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/BDD.md)  
+collet

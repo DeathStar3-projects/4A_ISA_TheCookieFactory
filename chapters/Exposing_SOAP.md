@@ -3,10 +3,10 @@
   * Author: Sébastien Mosser [mosser@i3s.unice.fr](mosser@i3s.unice.fr)
   * Reviewer: Anne-Marie Déry [pinna@polytech.unice.fr](pinna@polytech.unice.fr)
   * Version: 02.2016
-  * [Back to The Cookie Factory Home Page](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/Readme.md)
+  * [Back to The Cookie Factory Home Page](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/Readme.md)
 
 
-  * Prev.: [Business components with EJB Sessions](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/chapters/BusinessComponents.md)
+  * Prev.: [Business components with EJB Sessions](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/BusinessComponents.md)
   
 The Cookie Factory system must be exposed to remote clients, so that a customer can order some cookies through the service. Two options: (i) exposing the EJBs as remote ones, or (ii) expose these beans through a Web Service. The first option implies for the clients to be J2E-compliant, when the second option will allows clients to be developed in any language.
 
@@ -144,4 +144,5 @@ private static CartWebService initialize(String host, String port) {
 }
 ```
 
-  * Next: [Consuming external Web Services (REST)](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/chapters/Consuming_REST.md)
+  * Next: [Consuming external Web Services (REST)](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/Consuming_REST.md)
+collet

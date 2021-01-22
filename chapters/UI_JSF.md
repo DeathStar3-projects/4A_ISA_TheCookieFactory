@@ -3,9 +3,9 @@
   * Author: Sébastien Mosser [mosser@i3s.unice.fr](mosser@i3s.unice.fr)
   * Reviewer: Anne-Marie Déry [pinna@polytech.unice.fr](pinna@polytech.unice.fr)
   * Version: 02.2016
-  * [Back to The Cookie Factory Home Page](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/Readme.md)
+  * [Back to The Cookie Factory Home Page](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/Readme.md)
 
-  * Prev.: [Making things persistent](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/chapters/Persistence.md)
+  * Prev.: [Making things persistent](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/Persistence.md)
 
 
 ## Configuring the JSF framework
@@ -138,7 +138,7 @@ We now want to support cookie ordering using a web interface. The application is
 The following diagram represent the flow between the different views, as an automata. As `CustomerBean` and `OrderBean` will share the customer to work with (selecting her and then modifying her cart), we will use a server _session_ to share this information. The previously defined tracker should be able to track any order, and is then session independent. As a consequence, we will have to transfer to the tracker the identifier of the created order.
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/polytechnice-si/4A_ISA_TheCookieFactory/develop/docs/webflow.png"/>
+	<img src="https://raw.githubusercontent.com/collet/4A_ISA_TheCookieFactory/develop/docs/webflow.png"/>
 </p>
 
 
@@ -326,7 +326,8 @@ public void setCustomer(Customer customer) { this.customer = customer; }
 private void loadCustomer() { this.customer = finder.findByName(getCustomerName()).get(); }
 ```
 
-  * Next: [Asynchronous communication using Messages](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/chapters/MessageDrivenBeans.md)
+  * Next: [Asynchronous communication using Messages](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/MessageDrivenBeans.md)
  
 
 
+collet

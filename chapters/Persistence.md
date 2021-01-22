@@ -111,7 +111,7 @@ Your favorite IDE can be used to access to the contents of the persistent databa
 __If you really want to proceed__, be sure to use the full path to reach your local file. Here is an example of configuration using IntelliJ 16 Ultimate Edition.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/polytechnice-si/4A_ISA_TheCookieFactory/develop/docs/ide_datasource.png" />
+  <img src="https://raw.githubusercontent.com/collet/4A_ISA_TheCookieFactory/develop/docs/ide_datasource.png" />
 </p>
 
 ## Annotating Classes to create Entities
@@ -240,7 +240,7 @@ The previous code obviously triggers an infinite loops (this is the very same si
 Based on these annotations, the JPA layer generates the following database schema.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/polytechnice-si/4A_ISA_TheCookieFactory/develop/docs/database.png" />
+  <img src="https://raw.githubusercontent.com/collet/4A_ISA_TheCookieFactory/develop/docs/database.png" />
 </p>
 
 
@@ -488,3 +488,4 @@ public void lazyloadingDemo() throws Exception {
 
 __Remark__: Within EJB sessions, a transaction is created each time a method is called. Objects are detached (cutting lazy-loading capabilities to _null_) each time a persistent object crosses the boundary of a transaction.
 
+collet

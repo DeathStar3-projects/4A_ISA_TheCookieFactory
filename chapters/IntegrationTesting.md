@@ -3,9 +3,9 @@
   * Author: Sébastien Mosser [mosser@i3s.unice.fr](mosser@i3s.unice.fr)
   * Reviewer: Anne-Marie Déry [pinna@polytech.unice.fr](pinna@polytech.unice.fr)
   * Version: 02.2016
-  * [Back to The Cookie Factory Home Page](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/Readme.md)
+  * [Back to The Cookie Factory Home Page](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/Readme.md)
 
-  * Prev.: [Consuming external Web Services (REST)](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/chapters/Consuming_REST.md)
+  * Prev.: [Consuming external Web Services (REST)](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/Consuming_REST.md)
 
 ## Unit testing using Mocks
 
@@ -70,4 +70,5 @@ We will differentiate classical tests and integration ones using a file name pre
 ``` 
 
 
-  * Next: [Complete architecture overview](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/develop/chapters/VolatileOverview.md)
+  * Next: [Complete architecture overview](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/VolatileOverview.md)
+collet
