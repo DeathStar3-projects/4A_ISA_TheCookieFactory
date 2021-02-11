@@ -56,6 +56,12 @@ __Technical Information__:
 
 ### Compilation & Execution
 
+#### Requirements
+  - Java 8
+  - Maven (`>= 3.6.1`)
+  - Mono
+    - Tested with version `6.12`
+
 To compile the demonstration (j2e, .Net and client parts), simply run the compilation script. The first compilation can take (a lot of) time, considering that Maven will have to download all the java dependencies necessary to build and run the system (the application server weights 43Mb):
 
     mosser@azrael $ ./buildAll.sh
