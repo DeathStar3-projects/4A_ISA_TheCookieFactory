@@ -77,6 +77,8 @@ Copy paste the contents of this contract (use the _view source_ option in your b
 
 __Warning__: Obviously, each time the service contract will change, you'll have to rerun the stub generation process on the latest WSDL contract.
 
+__Update on Feb 2021__: In last IntelliJ Ultimate (2020.3), it seems that the IDE is updating the Java code on the client side if the WSDL is changed on the server (and that the server is up). Still it does not update the WSDL that needs to be imported again.
+
 To instantiate the stub that will support the communication between the client and the service, we simply ask the generated stub code to do so (in the class `CartWSDemo`):
 
 ```java
