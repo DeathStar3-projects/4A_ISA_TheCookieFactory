@@ -1,3 +1,5 @@
+#use as test project for varicity-config
+
 # The Cookie Factory (ISA Case study)
 
   * Main Author: Sébastien Mosser [mosser@i3s.unice.fr](mosser@i3s.unice.fr)
